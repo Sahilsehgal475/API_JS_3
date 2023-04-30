@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predict Gender By Name</title>
+    <script src="https://kit.fontawesome.com/ae8f25774a.js" crossorigin="anonymous"></script> 
+<link rel = "icon" href =  icons8-gender-16.png
+                 type = "gender-logo-png">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+      
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="gender.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="app-title">Predict Gender By Name</h1>
+      <div class="input-wrapper">
+        <input
+          type="text"
+          value="Sahil"
+          id="name"
+          placeholder="Enter a name.."
+        />
+        <button id="submit">Predict</button>
+      </div>
+      <div id="result">
+        <div id="wrapper"></div>
+        <div id="error"></div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="gender.js"></script>
+  </body>
+</html>
